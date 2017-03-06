@@ -49,11 +49,6 @@ for (var sheet in sheets) {
 							htmlFile += '\n' + '<td>' + sheets[sheet][cell].w.replace('&', '&amp;').replace('-', '&ndash;').replace('–', '&mdash') + '</td>';
 						}
 					}
-					// Insert link to the proper pdf file based off the number in the last column
-					if (cell.slice(0, 1) === 'D') {
-						var newLink = 'href="documents/' + sheets[sheet][cell].w + '.pdf"';
-						htmlFile = htmlFile.replace('href=""', newLink);
-					}
 				}
 			}
 		}
