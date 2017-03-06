@@ -1,6 +1,6 @@
 {
   "name": "excel-to-html-table",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert each worksheet in an xlsx workbook to an HTML5 table",
   "main": "index.js",
   "scripts": {
