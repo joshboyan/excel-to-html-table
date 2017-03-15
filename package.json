@@ -24,5 +24,8 @@
   "homepage": "https://github.com/joshboyan/excel-to-html-table#readme",
   "devDependencies": {
     "xlsx": "^0.8.7"
+  },
+  "dependencies": {
+    "cheerio": "^0.22.0"
   }
 }
