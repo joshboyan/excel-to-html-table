@@ -39,7 +39,7 @@ for (var sheet in sheets) {
 				} else {
 					//The second row in the table closes the thead element
 					if (cell === 'A2') {
-						htmlFile += '\n' + '</tr>' + '\n' + '</thead>' + '\n' + '<tr>' + '\n' + '<th>' + '<a href="">' + sheets[sheet][cell].w.replace('&', '&amp;').replace('-', '&ndash;').replace('–', '&mdash;') + '</a>' + '</th>';
+						htmlFile += '\n' + '</tr>' + '\n' + '</thead>' + '\n' + '<tr>' + '\n' + '<th>' + sheets[sheet][cell].w.replace('&', '&amp;').replace('-', '&ndash;').replace('–', '&mdash;') + '</th>';
 					} else {
 						// The first cell in each row
 						if (cell.slice(0, 1) === 'A') {
